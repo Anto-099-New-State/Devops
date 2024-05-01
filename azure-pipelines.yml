@@ -11,7 +11,7 @@ pool: Lap-pool
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: '/demon/pom.xml'
     goals: 'test'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
